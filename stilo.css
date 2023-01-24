@@ -53,7 +53,10 @@ header{
     border-bottom: 1px solid white;
     height: 5vh;
     width: 100vw;
+    font-family: 'minhafonte';
+    color: #87210f;
 }
+
 
 main{
     height: 60vh;
@@ -74,7 +77,8 @@ footer{
 span{
     color: rgb(155, 0, 0);
     text-shadow: -1px -1px 0 #fff;
-    font-size: 1em;
+    font-size: 1.5em;
+    font-family: 'minhafonte';
 }
 
 @media only screen and (max-width: 600px) {
@@ -88,4 +92,14 @@ span{
 
 }
 
+@font-face {
+    font-family: 'minhafonte';
+    src: url('fonts/Midnight-Terror.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+    margin: 1vh 0 0 3vh;
+}
 
