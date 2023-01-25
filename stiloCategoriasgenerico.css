@@ -109,6 +109,10 @@ ul li ul li a{
 main{
     flex: 1;
     margin-top: 10vh;
+    background-image:url("imagens/fundoblur.svg") ;
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position: center;
 
 }
 
@@ -126,7 +130,8 @@ footer{
 .marginMain{
     margin: 0 2vh 0 2vh;
     padding: 0.5vh;
-    
+    display: flex;
+    flex-direction: column; 
 }
 
 img{
@@ -135,6 +140,7 @@ img{
     padding: 0;
     margin: 0;
     border: 0;
+    visibility: hidden;
 }
 
 
@@ -143,20 +149,36 @@ img{
 
     width: 100%;
     height: 100%;
-    margin: 0 auto;
+    margin: 2.5vh auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: gray;
-    padding: 2.3vh 0 1vh 0;
+    /* background: gray; */
+    padding: 2.3vh 0 2vh 0;
     border-radius: 1.4em;
+    background-image:url("imagens/fundoblur.svg") ;
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position: center;
 }
 
 .mini-container{
 
     margin: 0 auto;
-    background: lightgray;
+    /* background: lightgray; */
     margin: 2px;
     padding: 1vh;
     border-radius: 1.4em;
+    background-image:url("imagens/fundoblur.svg") ;
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position: center;
 }
+
+@media screen and (min-width: 750px) {
+    .marginMain{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+    
