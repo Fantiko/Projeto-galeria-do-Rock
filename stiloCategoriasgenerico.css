@@ -21,6 +21,7 @@ nav{
     justify-content: space-between;
     padding: 0 1.4vh 0 1.4vh;
     border-bottom: white 1px solid;
+    z-index: 10;
 }
 
 ul{
@@ -124,6 +125,7 @@ footer{
     height: 5vh;
     width: 100%;
     padding-top: 1vh;
+    padding-bottom: 1.5vh ;
 }
 
 /* fazendo a main */
@@ -140,7 +142,7 @@ img{
     padding: 0;
     margin: 0;
     border: 0;
-    visibility: hidden;
+    visibility: show;
 }
 
 
@@ -258,5 +260,14 @@ p{
             flex-direction: row;
             justify-content: space-between;
         }
+
+        .stiky{
+            position: sticky;
+            z-index: 0;
+            top: 10vh;
+            offset: 500vh;
+        }
     
     }
+
+
