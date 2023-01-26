@@ -109,7 +109,7 @@ ul li ul li a{
 
 section{
     flex: 1;
-    margin-top: 10vh;
+    margin-top: 52px;
     background: rgb(83,83,83);
     background: radial-gradient(circle, rgba(83,83,83,1) 0%, rgba(9,9,121,0) 100%);
     background-size: 200%;
@@ -289,12 +289,14 @@ p{
     font-weight: bold;
     background-color: #87210f;
     border: none;
-    width: 50px;
-    height: 50px;
+    width: 5vw;
+    height: 5vh;
     border-radius: 50px;
     transition: 0.5s;
     margin: 0 10px  ;
   }
+
+  
   
   .direction button:hover{
     background-color:maroon;
@@ -357,6 +359,18 @@ p{
       width: calc(50vw - 20px);
     }
   }
+
+.titulo{
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 3vh;
+    padding-bottom: 1vh;
+    padding-left: 2vw;
+    margin-bottom: 1vh;
+}
   
 
 
