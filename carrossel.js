@@ -1,9 +1,9 @@
-document.getElementById('next').onclick = function(){
+document.getElementsByClassName('next').onclick = function(){
     const widthItem = document.querySelector('.item').offsetWidth;
-    document.getElementById('formList').scrollLeft += widthItem;
+    document.getElementsByClassName('formList').scrollLeft += widthItem;
     }
     
-    document.getElementById('prev').onclick = function(){
+    document.getElementsByClassName('prev').onclick = function(){
         const widthItem = document.querySelector('.item').offsetWidth;
-        document.getElementById('formList').scrollLeft -= widthItem;
+        document.getElementsByClassName('formList').scrollLeft -= widthItem;
         }
