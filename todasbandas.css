@@ -12,11 +12,6 @@ body{
     box-sizing: border-box;
 }
 
-img::-webkit-scrollbar{
-    display: none;
-  }
-
-
 #begin{
     display: flex;
     justify-content: flex-start;
