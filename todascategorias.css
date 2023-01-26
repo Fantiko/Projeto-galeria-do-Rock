@@ -1,0 +1,205 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    color: white;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+footer{
+    text-align: center;
+    background-color:black;
+    border-top: 1px solid white;  
+    font-size: 0.8em;
+    height: 5vh;
+    width: 100%;
+    padding-top: 1vh;
+    margin-top: 10vh;
+    padding-bottom: 1.5vh;
+}
+
+nav{
+    width: 100%;
+    background: black;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.4vh 0 1.4vh;
+    border-bottom: white 1px solid;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100px;
+}
+
+ul li{
+    position: relative;
+}
+
+li ul{
+    position: absolute;
+    top: 102%;
+    display: none;
+    border: white 1px solid;
+}
+
+
+ul li a{
+    display: block;
+    display: flex;
+    justify-content: right;
+    align-self: right;
+    text-decoration: none;
+    color: #000;
+    background: black;
+    padding: 15px;
+    color: white;
+
+
+}
+li a img{
+    width: 30%;
+    height: 30%;
+    padding: 0 1vh 0 0;
+    margin: 0;
+    border: 0;
+}
+
+li:hover ul{
+    display: block;
+    
+}
+
+ul li a:hover{
+    text-decoration:underline;
+    font-weight: bold;
+}
+
+ul li ul li a{
+    justify-content: center;
+
+}
+
+@font-face {
+    font-family: 'minhafonte';
+    src: url('fonts/Midnight-Terror.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.Logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logo a{
+    font-style: none;
+    text-decoration: none;
+    color: white;
+    font-family: "minhafonte";
+    font-size: 2.5vh;
+    margin: 0 0 0 2vh;
+    
+}
+
+#begin{
+    display: flex;
+    justify-content: center;
+}
+
+#hero{
+    width: 80%;
+    height: 19vh;
+    margin-top: 10vh;
+    background-color: #282424;
+    border-radius: 1.4em;  
+    font-weight: 400;
+    margin-left: 1vw;
+    box-sizing: border-box;
+    margin-bottom: 2vh;
+    text-align: center;
+}
+
+#hero h1{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+    margin-top: 2vh;
+    font-size: 3em;
+    padding-left: 2vw;
+    font-size: 5vh;
+}
+
+#hero p{
+    margin-top: 1vh;
+    color: red;
+    font-size: 1.25em;
+    font-weight: normal;
+    padding-left: 2vw;
+    font-size: 2.6vh;
+}
+
+.deepcard p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 0;
+    height: 1vh;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 0;
+    font-size: 2.5vh;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+    border-top: 0.1vh solid red;
+    padding-top: 3vh;
+    align-items: flex-start;
+    margin-top: 0;
+    height: 50vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    height: 45vh;
+    letter-spacing: 0.3vw;
+}
+
+img{
+    width: 90%;
+    height: 90%;
+    border-radius: 1.4em;  
+    margin-top: 2vh;
+}
+
+.deepcard{
+    width: 50vw;
+    height: 40vh;
+    padding-bottom: 0;
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+@media screen and (min-width: 750px) {
+    .deepcard{
+        width: 31vw;
+        height: 40vh;;
+    }      
+}
+
+.deepcard:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
