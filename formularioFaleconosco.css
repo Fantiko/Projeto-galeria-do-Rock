@@ -12,6 +12,17 @@ html, body {
     flex-direction: column;
 }
 
+.fale{
+    background-color: #282424;
+    border-radius: 1.4em;  
+    text-align: right;
+    height: 7vh;
+    opacity: 90%;
+    box-sizing: border-box;
+}
+
+
+
 body{
     background-image: url(imagens/guitarrafogo.jpg);
     background-position-y: center;

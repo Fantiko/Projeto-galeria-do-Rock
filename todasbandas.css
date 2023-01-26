@@ -12,7 +12,7 @@ body{
     box-sizing: border-box;
 }
 
-body::-webkit-scrollbar{
+img::-webkit-scrollbar{
     display: none;
   }
 
