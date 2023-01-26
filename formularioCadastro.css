@@ -135,5 +135,9 @@ footer{
     text-transform: uppercase;
     font-size: larger;
     text-align: right;
+}
 
+form input, form textarea {
+    border: 1px solid black;
+    border-radius: 20px;
 }
