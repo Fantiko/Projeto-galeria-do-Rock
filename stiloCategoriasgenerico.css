@@ -276,6 +276,7 @@ p{
             z-index: 0;
             top: 10vh;
             offset: 500vh;
+            width: 80%;
         }
     
     }
