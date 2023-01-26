@@ -1,0 +1,80 @@
+body{
+    background: #411e19;
+  }
+  
+  .direction{
+    text-align: center;
+  }
+  
+  .direction button{
+    font-family: cursive;
+    font-weight: bold;
+    background-color: #87210f;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 0 10px  ;
+  }
+  
+  .direction button:hover{
+    background-color:maroon;
+  }
+  
+  .item{
+    border-radius: 15px;
+    width: 300px;
+    height: 500px;
+    background-image: linear-gradient(to top,grey ,#ECECF2);
+    overflow: hidden;
+    transition: 0.5s;
+    margin: 10px;
+    scroll-snap-align: start;
+  }
+  
+  .item .avatar{
+    display: block;
+    margin: 50px auto 10px;
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 10px 15px #7e878d;
+  }
+  
+  .item .content{
+    padding: 30px;
+    font-family: monospace;
+  }
+  
+  #list {
+    display: flex;
+    width: max-content;
+  }
+  
+  #formList{
+    width: 1280px;
+    max-width: 100%;
+    overflow: auto;
+    margin: 100px auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: both;
+  }
+  
+  #formList::-webkit-scrollbar{
+    display: none;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .item{
+      width: calc(33.3vw - 20px);
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .item{
+      width: calc(50vw - 20px);
+    }
+  }
+  
