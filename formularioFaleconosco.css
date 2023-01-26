@@ -137,7 +137,10 @@ footer{
     text-align: right;
     
 }
-/*
-.tabela td{
-    color: #000;;
+
+
+
+form input, form textarea {
+    border: 1px solid black;
+    border-radius: 20px;
 }
