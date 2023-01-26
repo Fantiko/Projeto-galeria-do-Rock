@@ -107,7 +107,7 @@ ul li ul li a{
     
 }
 
-section{
+.section1{
     flex: 1;
     margin-top: 52px;
     background: rgb(83,83,83);
@@ -192,6 +192,7 @@ h1{
     margin: 0;
     margin-bottom: 1vh;
     padding: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
 p{
@@ -200,6 +201,7 @@ p{
     margin: 0;
     padding: 0;
     padding-left: 1vh;
+    font-family: 'Alice', sans-serif;
 }
 
 .ajustar{
@@ -217,7 +219,7 @@ p{
     justify-content: space-between;
     align-items: center;
     margin: 0;
-    padding: 0;
+    padding-top : 1.5vh;
     padding-left: 6vh;
     padding-right: 1vh;
     padding-bottom: 1.2vh;
@@ -282,6 +284,7 @@ p{
 
 .direction{
     text-align: center;
+    margin-bottom: 2vh;
   }
   
   .direction button{
@@ -289,11 +292,11 @@ p{
     font-weight: bold;
     background-color: #87210f;
     border: none;
-    width: 5vw;
+    width: 7vh;
     height: 5vh;
     border-radius: 50px;
     transition: 0.5s;
-    margin: 0 10px  ;
+    margin: 0 10px;
   }
 
   
@@ -305,6 +308,7 @@ p{
   .item{
     border-radius: 5%;
     width: 25vw;
+    min-height: 40vh;
     display: flex;
     flex-direction: column;
     background: rgb(83,83,83);
@@ -370,9 +374,53 @@ p{
     padding-bottom: 1vh;
     padding-left: 2vw;
     margin-bottom: 1vh;
+    border-top: 1px solid white;
 }
-  
 
+a{
+    text-decoration: none;
+    color: white;
+}
 
+@font-face {
+    font-family: 'Alice';
+    src: url(font/Alice-Regular.ttf) format('truetype');; 
+}
 
+@font-face {
+    font-family: 'Raleway';
+    src: url(fonts/Raleway-VariableFont_wght.ttf) format('truetype');
+}
+
+.paibutton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding-top : 1.5vh;
+    padding-left: 3vh;
+    padding-right: 1vh;
+    padding-bottom: 1.2vh;
+}
+
+.button{
+    background-color: white;
+    color: black;
+    padding: 1vh 2vh;
+    border-radius: 1.4em;
+    
+}
+
+#categorias{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding-top : 1.5vh;
+    padding-left: 3vh;
+    padding-right: 1vh;
+    padding-bottom: 1.2vh;
+}
 
