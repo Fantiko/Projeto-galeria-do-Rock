@@ -35,106 +35,110 @@ Profissão, Data de nascimento, CPF (campos de texto normal) e Email.
     </nav>
 
     <main>
-        <h2 class="fon">Faça o seu cadastro</h2>
-        <div class="tabela">
-            <form action="tiagoartem@gmail.com" method="post">
-                <table>
-                   <!--<tr>
+        <section>
+            <h2 class="fon">Faça o seu cadastro</h2>
+            <div class="tabela">
+                <form action="tiagoartem@gmail.com" method="post">
+                    <table>
+                        <!--<tr>
                         <td colspan="2" align="center">Faça o seu cadastro:</td>
 
                     </tr>
                 -->
-                    <tr>
-                        <td>Nome:</td>
-                        <td><input type="texto" size="20" name="nome" placeholder="Digite o seu nome" autofocus /> </td>
-                    </tr>
+                        <tr>
+                            <td>Nome:</td>
+                            <td><input type="texto" size="20" name="nome" placeholder="Digite o seu nome" autofocus />
+                            </td>
+                        </tr>
 
-                    <tr>
-                        <td>Rua:</td>
-                        <td><input type="texto" size="20" name="rua" placeholder="Informe a sua rua" /> </td>
-                    </tr>
+                        <tr>
+                            <td>Rua:</td>
+                            <td><input type="texto" size="20" name="rua" placeholder="Informe a sua rua" /> </td>
+                        </tr>
 
-                    <tr>
-                        <td>Cidade:</td>
-                        <td><input type="texto" size="20" name="cidade" placeholder="Informe a sua cidade" /> </td>
-                    </tr>
+                        <tr>
+                            <td>Cidade:</td>
+                            <td><input type="texto" size="20" name="cidade" placeholder="Informe a sua cidade" /> </td>
+                        </tr>
 
-                    <tr>
-                        <td>Estado:</td>
-                        <td><input type="texto" size="20" name="estado" placeholder="Informe o seu estado" /> </td>
-                    </tr>
+                        <tr>
+                            <td>Estado:</td>
+                            <td><input type="texto" size="20" name="estado" placeholder="Informe o seu estado" /> </td>
+                        </tr>
 
-                    <tr>
-                        <td>Telefone Residencial:</td>
-                        <td><input type="texto" size="20" name="telefoneresidencial" placeholder="(xx)xxxx-xxxx" />
-                        </td>
-                    </tr>
+                        <tr>
+                            <td>Telefone Residencial:</td>
+                            <td><input type="texto" size="20" name="telefoneresidencial" placeholder="(xx)xxxx-xxxx" />
+                            </td>
+                        </tr>
 
-                    <tr>
-                        <td>Profissão:</td>
-                        <td><input type="texto" size="20" name="profissao" placeholder="Informe a sua profissão" />
-                        </td>
-                    </tr>
+                        <tr>
+                            <td>Profissão:</td>
+                            <td><input type="texto" size="20" name="profissao" placeholder="Informe a sua profissão" />
+                            </td>
+                        </tr>
 
-                    <tr>
-                        <td>Data de Nascimento:</td>
-                        <td><input type="date" size="20" name="nascimento" min="1900-01-01" max="2023-01-01" /> </td>
-                    </tr>
+                        <tr>
+                            <td>Data de Nascimento:</td>
+                            <td><input type="date" size="20" name="nascimento" min="1900-01-01" max="2023-01-01" />
+                            </td>
+                        </tr>
 
-                    <tr>
-                        <td>CPF:</td>
-                        <td><input type="text" size="20" name="cpf" placeholder="xxx.xxx.xxx-xx"
-                                pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}" /> </td>
-                    </tr>
+                        <tr>
+                            <td>CPF:</td>
+                            <td><input type="text" size="20" name="cpf" placeholder="xxx.xxx.xxx-xx"
+                                    pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}" /> </td>
+                        </tr>
 
-                    <tr>
-                        <td>Email:</td>
-                        <td><input type="email" size="20" name="email" placeholder="Digite o seu email" /> </td>
-                    </tr>
+                        <tr>
+                            <td>Email:</td>
+                            <td><input type="email" size="20" name="email" placeholder="Digite o seu email" /> </td>
+                        </tr>
 
-                    <tr>
-                        <td>Estado Civil:</td>
-                        <td><select size="1" name="estadocivil">
-                                <option>Solteiro(a)</option>
-                                <option>Casado(a)</option>
-                                <option>Divorciado(a)</option>
-                                <option>Viúvo(a)</option>
-                        </td>
-                        </select>
-                    </tr>
+                        <tr>
+                            <td>Estado Civil:</td>
+                            <td><select size="1" name="estadocivil">
+                                    <option>Solteiro(a)</option>
+                                    <option>Casado(a)</option>
+                                    <option>Divorciado(a)</option>
+                                    <option>Viúvo(a)</option>
+                            </td>
+                            </select>
+                        </tr>
 
-                    <tr>
-                        <td>Sexo:</td>
-                        <td><input type="radio" name="sexo" value="masculino" checked="checked">Masculino
-                            <input type="radio" name="sexo" value="feminino">Feminino
-                        </td>
+                        <tr>
+                            <td>Sexo:</td>
+                            <td><input type="radio" name="sexo" value="masculino" checked="checked">Masculino
+                                <input type="radio" name="sexo" value="feminino">Feminino
+                            </td>
 
-                    </tr>
+                        </tr>
 
-                    <tr>
-                        <td>Observações:</td>
-                        <td><textarea rows="4" cols="20" name="observacoes"
-                                placeholder="  Deixe aqui a sua obvervação"></textarea> </td>
-                    </tr>
+                        <tr>
+                            <td>Observações:</td>
+                            <td><textarea rows="4" cols="20" name="observacoes"
+                                    placeholder="  Deixe aqui a sua obvervação"></textarea> </td>
+                        </tr>
 
-                    <tr>
-                        <td><input type="submit" value="Enviar"> </td>
-                        <td><input type="reset" value="Limpar">
-                    </tr>
-                    </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="submit" value="Enviar"> <input type="reset" value="Limpar">
+                        </tr>
+                        </tr>
 
 
 
-                </table>
-            </form>
-        </div>
+                    </table>
+                </form>
+            </div>
+        </section>
     </main>
 
 
-<footer>
-    <p>© 2022 Your Company. All rights reserved.</p>
-    <p>Iniciativa de Kaio Stefan Campos, Elder Soeiro e Tiago Artem</p>
-</footer>
+    <footer>
+        <p>© 2022 Your Company. All rights reserved.</p>
+        <p>Iniciativa de Kaio Stefan Campos, Elder Soeiro e Tiago Artem</p>
+    </footer>
 </body>
 
 </html>

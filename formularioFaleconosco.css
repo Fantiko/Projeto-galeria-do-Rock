@@ -11,14 +11,6 @@ html, body {
     flex-direction: column;
 }
 
-.fale{
-    background-color: #282424;
-    border-radius: 1.4em;  
-    text-align: right;
-    height: 7vh;
-    opacity: 90%;
-    box-sizing: border-box;
-}
 
 
 
@@ -148,7 +140,18 @@ footer{
     
 }
 
+section{
+        background-color: #282424;
+        border-radius: 1.4em;  
+        opacity: 80%;
+        box-sizing: border-box;
+        padding: 1vw;
+    
+}
 
+section h2{
+    text-align: center;
+}
 
 form input, form textarea {
     border: 1px solid black;

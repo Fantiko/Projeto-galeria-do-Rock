@@ -148,3 +148,17 @@ form input, form textarea {
     border: 1px solid black;
     border-radius: 20px;
 }
+
+section{
+    background-color: #282424;
+    border-radius: 1.4em;  
+    opacity: 80%;
+    box-sizing: border-box;
+    padding: 1vw;
+    margin-top: 8vh;
+
+}
+
+section h2{
+    text-align: center;
+}
