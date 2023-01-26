@@ -5,7 +5,7 @@ html, body {
     height: 100%;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 0.8em;
     color: white;
     background: black;
     display: flex;
@@ -109,10 +109,10 @@ ul li ul li a{
 main{
     flex: 1;
     margin-top: 10vh;
-    background-image:url("imagens/fundoblur.svg") ;
-    background-repeat: no-repeat;
+    background-image:url("imagens/BGgreynf.png") ;
+    background-repeat: repeat-y;
     background-size: 200%;
-    background-position: center;
+    background-position: 50% 80%;
 
 }
 
@@ -156,7 +156,7 @@ img{
     /* background: gray; */
     padding: 2.3vh 0 2vh 0;
     border-radius: 1.4em;
-    background-image:url("imagens/fundoblur.svg") ;
+    background-image:url("imagens/BGgreynf.png") ;
     background-repeat: no-repeat;
     background-size: 200%;
     background-position: center;
@@ -169,16 +169,94 @@ img{
     margin: 2px;
     padding: 1vh;
     border-radius: 1.4em;
-    background-image:url("imagens/fundoblur.svg") ;
+    background-image:url("imagens/BGgreynf.png") ;
     background-repeat: no-repeat;
-    background-size: 200%;
-    background-position: center;
+    background-size: 128%;
+    background-position: 50% 50%;
 }
 
-@media screen and (min-width: 750px) {
-    .marginMain{
-        flex-direction: row;
-        justify-content: space-between;
-    }
+
+h1{
+    color: white;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 1vh;
+    padding: 0;
 }
+
+p{
+    color: lightgray;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    padding-left: 1vh;
+}
+
+.ajustar{
+    margin: 0.5vh 2vh 2vh 2vh;
+}
+
+.mini-container div{
+    padding-bottom: 1vh;
+    font-size: 1.1rem;
+}
+
+#paitags{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    padding-left: 3vh;
+    padding-right: 1vh;
+    padding-bottom: 1.2vh;
+}
+
+.tags{
+    background-color: white;
+    color: black;
+    padding: 1vh 2vh;
+    border-radius: 1.4em;
     
+}
+
+#paiIframe{
+    margin: 1vh 0;
+}
+
+#paiInfluencia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.influencia{
+    flex: 1;
+}
+
+
+
+    @media screen and (min-width: 750px) {
+        .marginMain{
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 2.5vh;
+        }
+        main{
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+    
+    
+        .container-coluna{
+            margin: 2.5vh;
+    
+        }
+
+        #paiInfluencia{
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    
+    }
