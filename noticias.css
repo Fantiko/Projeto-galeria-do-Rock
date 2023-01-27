@@ -204,3 +204,52 @@ background-size: 200%;
 background: linear-gradient(180deg, rgba(179,117,23,0) 0%, rgba(135,14,63,0.7877275910364145) 50%, rgba(9,9,121,0) 100%);
 background-size: 200%;
 }
+
+@media screen and (max-width: 1440px ) {
+    .hero{
+        width: 65%;
+    }
+
+    main h1{
+        color: #fff;
+        margin-top: 13vh;
+        text-align: left;
+        font-size:x-large;
+    }
+}
+
+@media screen and (max-width: 769px ) {
+    .hero{
+        width: 65%;
+    }
+    .titulo p{
+        font-size: 85%;
+    }
+    .titulo a{
+        font-size: 85%;
+    }
+    .imagem{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 426px ) {
+    .hero{
+        width: 65%;
+    }
+    .titulo h2{
+        font-size: 75%;
+    }
+    .titulo p{
+        font-size: 75%;
+    }
+    .titulo a{
+        font-size: 75%;
+    }
+    .imagem{
+        width: 30%;
+        height: 80%;
+        align-items: center;
+    }
+}
+
