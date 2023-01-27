@@ -1,0 +1,310 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2vh;
+    color: white;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+footer{
+    text-align: center;
+    background-color:black;
+    border-top: 1px solid white;  
+    font-size: 0.8em;
+    height: 5vh;
+    width: 100%;
+    padding-top: 1vh;
+    margin-top: 20vh;
+    padding-bottom: 1.5vh;
+}
+
+nav{
+    width: 100%;
+    background: black;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.4vh 0 1.4vh;
+    border-bottom: white 1px solid;
+}
+
+.nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100px;
+}
+
+.nav ul li{
+    position: relative;
+}
+
+.nav li ul{
+    position: absolute;
+    top: 102%;
+    display: none;
+    border: white 1px solid;
+}
+
+
+.nav ul li a{
+    display: block;
+    display: flex;
+    justify-content: right;
+    align-self: right;
+    text-decoration: none;
+    color: #000;
+    background: black;
+    padding: 15px;
+    color: white;
+
+
+}
+
+.nav li a img{
+    width: 30%;
+    height: 30%;
+    padding: 0 1vh 0 0;
+    margin: 0;
+    border: 0;
+}
+
+.nav li:hover ul{
+    display: block;
+    
+}
+
+.nav ul li a:hover{
+    text-decoration:underline;
+    font-weight: bold;
+}
+
+.nav ul li ul li a{
+    justify-content: center;
+
+}
+
+@font-face {
+    font-family: 'minhafonte';
+    src: url('fonts/Midnight-Terror.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.Logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logo a{
+    font-style: none;
+    text-decoration: none;
+    color: white;
+    font-family: "minhafonte";
+    font-size: 2.5vh;
+    margin: 0 0 0 2vh;
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#hero{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10vh;
+    height: 25vh;
+    width: 90%;
+    box-sizing: border-box;
+    overflow: auto;
+    font-size: 2vh;
+    background-color: #282424;
+    border-radius: 1.4em;
+}
+
+#divhero{
+    width: 40%;
+    margin-left: 0;  
+    
+}
+
+#divimg{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#divimg img{
+    width: 90%;
+    height: 80%;
+    border-radius: 1.4em;
+}
+
+#divhero p{
+    font-size: 1.7vh;
+    padding-left: 2vw;
+    margin-top: 3vh;
+    margin-bottom: 0;
+    font-size: 2.1vh;
+}
+
+#divhero h4{
+    display: inline-b;
+    font-weight: 300;
+    padding-left: 2vw;
+    margin-top: 1vh;
+    margin-bottom: 0;
+    font-size: 1.8vh;
+}
+
+#divhero ul{
+    text-indent: 1vw;
+    margin-top: 0.3vh;
+    color: red;
+    padding-left: 1vw;
+    font-size: 1.5vh;
+    list-style: none;
+
+}
+
+#categorias{
+    display: flex;
+    margin-top: 10vh;
+    box-sizing: border-box;
+    overflow: auto;
+    font-size: 2vh;
+    width: 100%;
+    flex-direction: column;
+    border-top: solid red 0.1vh;
+
+}
+
+#imgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.deepimgs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    letter-spacing: 0.3vw;
+    border-radius: 1.4em;
+    
+}
+.deepimgs img{
+    height: 70%;
+    width: 70%;;
+    border-radius: 1.4em;
+    margin-top: 1vh;
+}
+
+h2{
+    text-indent: 3vw;
+}
+
+button{
+    margin: 2vh;
+    border-radius: 1.4em;
+    height: 4vh;
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4vh;   
+}
+
+#bandas{
+    display: flex;
+    margin-top: 2vh;
+    box-sizing: border-box;
+    overflow: auto;
+    font-size: 2vh;
+    width: 100%;
+    flex-direction: column;
+    border-top: solid red 0.1vh;
+}
+
+#imgs2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.deepimgs2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    letter-spacing: 0.3vw;
+    border-radius: 1.4em;
+    
+}
+
+.deepimgs2 img{
+    height: 70%;
+    width: 70%;;
+    border-radius: 1.4em;
+    margin-top: 1vh;
+}
+
+.deepimgs2:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.deepimgs:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+@media screen and (min-width:770px) {
+    #hero{
+        height: 45vh;
+        width: 70%;
+    }
+    #divhero p{
+        font-size: 5vh;
+    }
+    #divhero h4{
+        font-size: 3vh;
+        margin-top: 2vh;
+    }
+    #divhero ul{
+        font-size: 2.5vh;
+        width: 16vw;
+    }
+
+
+}
+
+footer{
+    text-align: center;
+    background-color:black;
+    border-top: 1px solid white;  
+    font-size: 0.8em;
+    height: 5vh;
+    width: 100%;
+    padding-top: 1vh;
+    margin-top: 10vh;
+    padding-bottom: 1.5vh;
+}
+
+

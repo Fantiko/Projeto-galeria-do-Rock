@@ -139,10 +139,63 @@ main{
     flex: 1;
 }
 
-.hero{
+section{
     width: 20%;
+    margin-top: 8vh;
+    margin-left: 10vw;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
+
+.direito{
+    margin-top: 10vh;
+    margin-left: 25vw;
+    width: 40%;
+    border: 1px solid #fff;
+    height: 70%;
+    background-color: #333333;
+}
+
+.hero{
+    display: flex;
+    border:  1px solid #fff;
+    height: 33%;
+    justify-content: center;
+    
+}
+
 
 .hero img{
     width: 100%;
+    border: 1px solid #fff;
+    height: 100%;
+}
+
+.direito .texto{
+    height: 80%;
+    border: 1px solid #fff;
+    font-size: 150%;
+}
+
+.direito .botao{
+    border: 1px solid #fff;
+}
+
+@media screen and (max-width: 768px){
+    .hero{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 320px){
+    .hero{
+        width: 180%;
+    }
+
+    .direito{
+height: 100%;
+    }
 }
