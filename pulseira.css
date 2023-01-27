@@ -1,0 +1,230 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    color: white;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    background-image: url(imagens/guitarrafogo.jpg);
+    background-position-y:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+nav{
+    width: 100%;
+    background: black;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.4vh 0 1.4vh;
+    border-bottom: white 1px solid;
+    z-index: 10;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100px;
+}
+
+ul li{
+    position: relative;
+}
+
+li ul{
+    position: absolute;
+    top: 102%;
+    display: none;
+    border: white 1px solid;
+}
+
+
+
+
+
+ul li a{
+    display: block;
+    display: flex;
+    justify-content: right;
+    align-self: right;
+    text-decoration: none;
+    color: #000;
+    background: black;
+    padding: 15px;
+    color: white;
+
+
+}
+
+li a img{
+    width: 30%;
+    height: 30%;
+    padding: 0 1vh 0 0;
+    margin: 0;
+    border: 0;
+}
+
+li:hover ul{
+    display: block;
+    
+}
+
+ul li a:hover{
+    text-decoration:underline;
+    font-weight: bold;
+}
+
+ul li ul li a{
+    justify-content: center;
+
+}
+
+@font-face {
+    font-family: 'minhafonte';
+    src: url('fonts/Midnight-Terror.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.Logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logo a{
+    font-style: none;
+    text-decoration: none;
+    color: white;
+    font-family: "minhafonte";
+    font-size: 2.5vh;
+    margin: 0 0 0 2vh;
+    
+}
+
+.section1{
+    flex: 1;
+    margin-top: 52px;
+    background: rgb(83,83,83);
+    background: radial-gradient(circle, rgba(83,83,83,1) 0%, rgba(9,9,121,0) 100%);
+    background-size: 200%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid white;
+}
+
+hr{
+    margin: 0;
+}
+
+footer{
+    text-align: center;
+    background-color:black;
+    border-top: 1px solid white;  
+    font-size: 0.8em;
+    height: 5vh;
+    width: 100%;
+    padding-top: 1vh;
+    padding-bottom: 1.5vh ;
+    margin-top: 3vh;
+}
+
+main{
+    display: flex;
+    flex: 1;
+}
+
+section{
+    width: 40%;
+    margin-top: 14vh;
+    margin-left: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.direito{
+    margin-top: 14vh;
+    margin-left: 18vw;
+    width: 40%;
+    height: 70%;
+    background-color: rgb(40, 0, 0);
+    border-radius: 10px;
+    padding: 2em;
+}
+
+.hero{
+    display: flex;
+    height: 33%;
+    justify-content: center;   
+    
+}
+
+
+.hero img{
+    width: 100%;
+    height: 90%;
+    border-radius: 1.4em;
+    border: solid black 1vh;
+}
+
+.direito .texto{
+    height: 80%;
+    font-size: 150%;
+}
+
+@media screen and (max-width: 768px){
+    .hero{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 320px){
+    .hero{
+        width: 180%;
+    }
+
+    .direito{
+height: 100%;
+    }
+}
+
+.frete{
+    color: green;
+}
+
+.title{
+    font-size: 3vh;
+}
+
+button{
+    border-radius: 1.2em;
+}
+
+@media screen and (min-width: 770px) {
+    body{
+        font-size: 2vh;
+    }
+
+    .hero{
+        height: 30vh;
+        width: 15vw;
+    }
+
+    button{
+        height: 7vh;
+    }
+
+    .direito{
+        margin-right: 3vw;
+    };
+}
