@@ -148,7 +148,6 @@ main{
 
 .tabela{
     
-  
     padding-left: 10vw;
     width: 40vw;
 }
@@ -190,4 +189,37 @@ main{
 
 .tabela p{
     padding: 0 1em;
+}
+
+
+
+@media screen and (max-width: 769px){
+    .projeto{
+        font-size: 0.8em;
+    }
+   
+    .tabela{
+
+    }
+}
+
+
+@media screen and (max-width: 321px){
+       .projeto{
+        font-size: 0.5em;
+        height: 80%;
+    }
+      .parte1{
+      height: 28%;
+    }   
+
+    .parte3{
+        height: 28%;
+    }
+   
+    .tabela{
+width: 50vw;
+font-size: 0.6em;
+    
+    }
 }
