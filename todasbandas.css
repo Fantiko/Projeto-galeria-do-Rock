@@ -12,10 +12,9 @@ body{
     box-sizing: border-box;
 }
 
-main::-webkit-scrollbar{
-    display: none;
-  }
-
+main{
+    flex: 1;
+}
 
 #begin{
     display: flex;
@@ -24,14 +23,13 @@ main::-webkit-scrollbar{
 
 #hero{
     width: 90%;
-    height: 14vh;
+    height: 17vh;
     margin-top: 10vh;
     background-color: #282424;
     border-radius: 1.4em;  
     font-weight: 400;
     padding-left: 2vw;
     margin-left: 1vw;
-    box-sizing: border-box;
 }
 
 #hero h1{
@@ -83,8 +81,8 @@ h2{
 }
 
 img{
-    width: 95%;
-    height: 90%;
+    width: 85%;
+    height: 80%;
     border-radius: 1.4em;  
 }
   
