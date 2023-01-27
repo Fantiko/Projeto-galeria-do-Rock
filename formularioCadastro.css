@@ -92,6 +92,10 @@ ul li ul li a{
 
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+}
 @font-face {
     font-family: 'minhafonte';
     src: url('fonts/Midnight-Terror.woff') format('woff');
@@ -99,6 +103,9 @@ ul li ul li a{
     font-style: normal;
 }
 
+.fon{
+    text-transform: uppercase;
+}
 
 .Logo{
     display: flex;
@@ -140,4 +147,18 @@ footer{
 form input, form textarea {
     border: 1px solid black;
     border-radius: 20px;
+}
+
+section{
+    background-color: #282424;
+    border-radius: 1.4em;  
+    opacity: 80%;
+    box-sizing: border-box;
+    padding: 1vw;
+    margin-top: 8vh;
+
+}
+
+section h2{
+    text-align: center;
 }

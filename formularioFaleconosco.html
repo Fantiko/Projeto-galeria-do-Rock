@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,65 +8,69 @@
     <title>Fale Conosco</title>
     <link rel="stylesheet" href="formularioFaleconosco.css">
 </head>
-<body>
-    
-<nav>
-    <div class="Logo">
-        <a href="#">Galeria -do- Rock</a>
-    </div>
-    <div>
-        <ul id="menu">
-            <li><a href="#"><img src="imagens/chifres-de-mao.png" alt=""></a>
-                <ul>
-                    <li><a href="#">Categorias</a></li>
-                    <li><a href="#">Bandas</a></li>
-                    <li><a href="#">Noticias</a></li>
-                    <li><a href="#">Produtos</a></li>
-                    <li><a href="#">Relatorio</a></li>
-                </ul>
-            </li>
-        </ul>
-    </div>
-</nav>
-    <main>
 
+<body>
+
+    <nav>
+        <div class="Logo">
+            <a href="#">Galeria -do- Rock</a>
+        </div>
+        <div>
+            <ul id="menu">
+                <li><a href="#"><img src="imagens/chifres-de-mao.png" alt=""></a>
+                    <ul>
+                        <li><a href="#">Categorias</a></li>
+                        <li><a href="#">Bandas</a></li>
+                        <li><a href="#">Noticias</a></li>
+                        <li><a href="#">Produtos</a></li>
+                        <li><a href="#">Relatorio</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section>
+            <div class="fale">
+                <h2> FALE CONOSCO:</h2>
+            </div>
             <div class="tabela">
                 <form action="contato@gmail.com" method="post">
                     <table>
+
                         <tr>
-                            <td colspan="2" align="center">Fale Conosco:</td>
+                            <td class="fale">Email do Remetente:</td>
+                            <td><input type="email" size="20" name="email" placeholder="Digite o seu email" autofocus />
+                            </td>
                         </tr>
 
                         <tr>
-                            <td>Email do Remetente:</td>
-                            <td><input type="email" size="20" name="email" placeholder="Digite o seu email" autofocus /></td>
+                            <td class="fale">Assunto:</td>
+                            <td><input type="text" size="20" name="assunto" placeholder="Informe o Assunto"></td>
                         </tr>
 
                         <tr>
-                            <td>Assunto:</td>
-                            <td><input type="text" size="20" name="assunto" placeholder="Informe o Assunto" ></td>
+                            <td class="fale">Informe a Mensagem:</td>
+                            <td><textarea rows="4" cols="20" name="observacoes"
+                                    placeholder="Deixe aqui a sua Mensagem"> </textarea></td>
                         </tr>
 
                         <tr>
-                            <td>Informe a Mensagem:</td>
-                            <td><textarea rows="4" cols="20" name="observacoes" placeholder="Deixe aqui a sua Mensagem"> </textarea></td> 
-                        </tr>
-
-                        <tr>
-                            <td><input type="submit" value="Enviar"> </td>
-                            <td><input type="reset" value="Limpar"></td>
+                            <td> </td>
+                            <td><input type="submit" value="Enviar" class="bt"><input type="reset" value="Limpar"
+                                    class="bt"></td>
                         </tr>
 
                     </table>
                 </form>
             </div>
-
+        </section>
     </main>
 
-<footer>
-    <p>© 2022 Your Company. All rights reserved.</p>
-    <p>Iniciativa de Kaio Stefan Campos, Elder Soeiro e Tiago Artem</p>
-</footer>
+    <footer>
+        <p>© 2022 Your Company. All rights reserved.</p>
+        <p>Iniciativa de Kaio Stefan Campos, Elder Soeiro e Tiago Artem</p>
+    </footer>
 </body>
 
 </html>

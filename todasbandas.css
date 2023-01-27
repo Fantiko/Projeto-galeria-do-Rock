@@ -12,9 +12,6 @@ body{
     box-sizing: border-box;
 }
 
-main{
-    flex: 1;
-}
 
 #begin{
     display: flex;
