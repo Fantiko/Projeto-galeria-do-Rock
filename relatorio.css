@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -10,14 +11,14 @@ html, body {
     flex-direction: column;
 }
 
-body{
+body {
     background-image: url(imagens/guitarrafogo.jpg);
     background-position-y: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-nav{
+nav {
     width: 100%;
     background: black;
     position: fixed;
@@ -28,32 +29,33 @@ nav{
     z-index: 10;
 }
 
-main{
+main {
     flex: 1;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-ul{
+ul {
     margin: 0;
     padding: 0;
     list-style: none;
     width: 100px;
 }
 
-ul li{
+ul li {
     position: relative;
 }
 
-li ul{
+li ul {
     position: absolute;
     top: 102%;
     display: none;
     border: white 1px solid;
 }
 
-ul li a{
+ul li a {
     display: block;
     display: flex;
     justify-content: right;
@@ -67,7 +69,7 @@ ul li a{
 
 }
 
-li a img{
+li a img {
     width: 30%;
     height: 30%;
     padding: 0 1vh 0 0;
@@ -75,17 +77,17 @@ li a img{
     border: 0;
 }
 
-li:hover ul{
+li:hover ul {
     display: block;
-    
+
 }
 
-ul li a:hover{
-    text-decoration:underline;
+ul li a:hover {
+    text-decoration: underline;
     font-weight: bold;
 }
 
-ul li ul li a{
+ul li ul li a {
     justify-content: center;
 
 }
@@ -98,46 +100,40 @@ ul li ul li a{
 }
 
 
-.Logo{
+.Logo {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.Logo a{
+.Logo a {
     font-style: none;
     text-decoration: none;
     color: white;
     font-family: "minhafonte";
     font-size: 2.5vh;
     margin: 0 0 0 2vh;
-    
+
 }
 
-footer{
+footer {
     text-align: center;
-    background-color:black;
-    border-top: 1px solid white;  
+    background-color: black;
+    border-top: 1px solid white;
     font-size: 0.8em;
     height: 5vh;
     width: 100%;
     padding-top: 1vh;
-    padding-bottom: 1.5vh ;
+    padding-bottom: 1.5vh;
     margin-top: 3vh;
 }
 
-main{
-    
-    flex: 1;
-}
-
-.projeto{
+.projeto {
     width: 40%;
     height: 70vh;
     margin-top: 10vh;
-    border-radius: 1.4em;  
+    border-radius: 1.4em;
     font-weight: 400;
-    margin-left: 0vw;
     box-sizing: border-box;
     display: flex;
     justify-content: flex-start;
@@ -146,80 +142,94 @@ main{
     font-size: 1.1em;
 }
 
-.tabela{
-    
+.tabela {
     padding-left: 10vw;
     width: 40vw;
+    margin-top: 6vh;
 }
-.tabela td{
+
+.tabela td {
     background-color: #282424;
 }
 
-.parte1{
-    
+.parte1 {
+
     background-color: #282424;
     border-radius: 2.2em;
     height: 22%;
 }
 
-.parte2{
+.parte2 {
     background-color: #282424;
     margin-top: 2vh;
     height: 22%;
     border-radius: 2.2em;
 }
 
-.parte3{
-    background-color: #282424;
-    margin-top: 2vh;
-    height: 22%;   
-    border-radius: 2.2em;
-}
-
-.parte4{
+.parte3 {
     background-color: #282424;
     margin-top: 2vh;
     height: 22%;
     border-radius: 2.2em;
 }
 
-.projeto p{
+.parte4 {
+    background-color: #282424;
+    margin-top: 2vh;
+    height: 22%;
+    border-radius: 2.2em;
+}
+
+.projeto p {
     padding: 0 1em;
 }
 
-.tabela p{
+.tabela p {
     padding: 0 1em;
 }
 
+section {
+    display: flex;
+    flex-direction: row;
+}
 
 
-@media screen and (max-width: 769px){
-    .projeto{
+@media screen and (max-width: 769px) {
+    .projeto {
         font-size: 0.8em;
     }
-   
-    .tabela{
 
-    }
 }
 
 
-@media screen and (max-width: 321px){
-       .projeto{
-        font-size: 0.5em;
-        height: 80%;
-    }
-      .parte1{
-      height: 28%;
-    }   
+@media screen and (max-width: 426px) {
 
-    .parte3{
+    section {
+        flex-direction: column;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .projeto {
+        font-size: 0.5em;
+        width: 100%;
+        height: 100%;
+    }
+
+    .parte1 {
         height: 28%;
     }
-   
-    .tabela{
-width: 50vw;
-font-size: 0.6em;
-    
+
+    .parte3 {
+        height: 28%;
+    }
+
+    .tabela {
+        margin-left: 15vw;
+        width: 50vw;
+        font-size: 0.6em;
+
     }
 }
