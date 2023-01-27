@@ -86,7 +86,7 @@ ul li ul li a {
 
 @font-face {
     font-family: 'minhafonte';
-    src: url('fonts/Midnight-Terror.woff') format('woff');
+    src: url('../fonts/Midnight-Terror.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -451,13 +451,13 @@ a {
 
 @font-face {
     font-family: 'Alice';
-    src: url(font/Alice-Regular.ttf) format('truetype');
+    src: url(../font/Alice-Regular.ttf) format('truetype');
     ;
 }
 
 @font-face {
     font-family: 'Raleway';
-    src: url(fonts/Raleway-VariableFont_wght.ttf) format('truetype');
+    src: url(../fonts/Raleway-VariableFont_wght.ttf) format('truetype');
 }
 
 .paibutton {
@@ -522,7 +522,7 @@ a {
 
 @font-face{
     font-family: 'newrock';
-    src: url(fonts/NewRocker-Regular.ttf) format('truetype');
+    src: url(../fonts/NewRocker-Regular.ttf) format('truetype');
 }
 
 .titulo h1{
