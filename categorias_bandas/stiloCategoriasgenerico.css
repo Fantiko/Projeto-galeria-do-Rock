@@ -111,12 +111,12 @@ ul li ul li a {
 .section1 {
     flex: 1;
     margin-top: 52px;
-    background: rgb(83, 83, 83);
-    background: radial-gradient(circle, rgba(83, 83, 83, 1) 20%, rgba(9, 9, 121, 0) 100%);
+    /* background: rgb(83, 83, 83); */
+    /* background: radial-gradient(circle, rgba(83, 83, 83, 1) 20%, rgba(9, 9, 121, 0) 100%);
     background-size: 400%;
     background-position: 0% 50%;
     background-repeat: repeat-y;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid white; */
 }
 
 hr {
@@ -165,11 +165,11 @@ img {
     /* background: gray; */
     padding: 2.3vh 0 2vh 0;
     border-radius: 1.4em;
-    background: rgb(83, 83, 83);
+    /* background: rgb(83, 83, 83);
     background: radial-gradient(circle, rgba(83, 83, 83, 1) 0%, rgba(9, 9, 121, 0) 100%);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: center;
+    background-position: center; */
 }
 
 .mini-container {
@@ -179,11 +179,11 @@ img {
     margin: 2px;
     padding: 1vh;
     border-radius: 1.4em;
-    background: rgb(83, 83, 83);
+    /* background: rgb(83, 83, 83);
     background: radial-gradient(circle, rgba(83, 83, 83, 1) 0%, rgba(9, 9, 121, 0) 100%);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: 50% 50%;
+    background-position: 50% 50%; */
 }
 
 
@@ -262,12 +262,12 @@ p {
         background-position: center center;
     }
 
-    .section1 {
+    /* .section1 {
         background: radial-gradient(circle, rgba(83, 83, 83, 1) 0%, rgba(9, 9, 121, 0) 100%);
         background-size: 200%;
         background-position: 50% 50%;
         background-repeat: no-repeat;
-    }
+    } */
 
 
     .container-coluna {
@@ -542,7 +542,7 @@ a {
 
 #card2{
     /* hard rock */
-    background: radial-gradient(circle, #593D24 0%, rgba(9, 9, 121, 0) 100%);
+    background: radial-gradient(circle, #303840 0%, rgba(9, 9, 121, 0) 100%);
     background-repeat: no-repeat;
     background-size: 160%;
     background-position: 50% 50%;
@@ -551,7 +551,7 @@ a {
 
 #card3{
     /* heavy metal */
-    background: radial-gradient(circle, #433502 40%, rgba(9, 9, 121, 0) 100%);
+    background: radial-gradient(circle, #d93c43 0%, rgba(9, 9, 121, 0) 100%);
     background-repeat: no-repeat;
     background-size: 160%;
     background-position: 50% 50%;
@@ -559,7 +559,7 @@ a {
 
 #card4{
     /* rock progressivo */
-    background: radial-gradient(circle, #624853 40%, rgba(9, 9, 121, 0) 100%);
+    background: radial-gradient(circle, #983830 40%, rgba(9, 9, 121, 0) 100%);
     background-repeat: no-repeat;
     background-size: 160%;
     background-position: 50% 50%;
