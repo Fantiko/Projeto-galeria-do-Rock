@@ -1,0 +1,206 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    color: white;
+    background: black;
+    display: flex;
+    flex-direction: column;
+}
+
+
+nav{
+    width: 100%;
+    background: black;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.4vh 0 1.4vh;
+    border-bottom: white 1px solid;
+    z-index: 10;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100px;
+}
+
+ul li{
+    position: relative;
+}
+
+li ul{
+    position: absolute;
+    top: 102%;
+    display: none;
+    border: white 1px solid;
+}
+
+
+
+
+
+ul li a{
+    display: block;
+    display: flex;
+    justify-content: right;
+    align-self: right;
+    text-decoration: none;
+    color: #000;
+    background: black;
+    padding: 15px;
+    color: white;
+
+
+}
+
+li a img{
+    width: 30%;
+    height: 30%;
+    padding: 0 1vh 0 0;
+    margin: 0;
+    border: 0;
+}
+
+li:hover ul{
+    display: block;
+    
+}
+
+ul li a:hover{
+    text-decoration:underline;
+    font-weight: bold;
+}
+
+ul li ul li a{
+    justify-content: center;
+
+}
+
+@font-face {
+    font-family: 'minhafonte';
+    src: url('fonts/Midnight-Terror.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.Logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logo a{
+    font-style: none;
+    text-decoration: none;
+    color: white;
+    font-family: "minhafonte";
+    font-size: 2.5vh;
+    margin: 0 0 0 2vh;
+    
+}
+
+
+footer{
+    text-align: center;
+    background-color:black;
+    border-top: 1px solid white;  
+    font-size: 0.8em;
+    height: 5vh;
+    width: 100%;
+    padding-top: 1vh;
+    padding-bottom: 1.5vh ;
+    margin-top: 3vh;
+}
+
+main{
+    flex:1;
+}
+
+.hero{
+    width: 90%;
+    height: 30vh;
+    margin-top: 10vh;
+    background-color: #282424;
+    border-radius: 1.4em;  
+    font-weight: 400;
+    margin-left: 1vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5vh;
+    
+}
+.hero .titulo{
+    width: 100%;
+text-indent: 1vw;
+
+}
+
+.titulo p{
+    font-size: 140%;
+text-indent: 1vw;
+padding-left: 1vw;
+
+
+}
+.hero img{
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 1.4em;
+}
+
+.imagem{
+    display: flex;
+    width: 20%;
+}
+
+.hero a{
+    font-size:150%;
+    padding-left: 1vw;
+    
+}
+
+main h1{
+    color: #fff;
+    margin-top: 13vh;
+    text-align: center;
+    font-size:x-large;
+}
+
+#noticia1{
+    background: rgb(179,117,23);
+background: linear-gradient(180deg, rgba(179,117,23,0) 0%, rgba(166,78,11,0.7877275910364145) 50%, rgba(9,9,121,0) 100%);
+background-size: 200%;
+}
+
+#noticia2{
+    background: rgb(179,117,23);
+    background: linear-gradient(180deg, rgba(179,117,23,0) 0%, rgba(142,132,16,0.7877275910364145) 50%, rgba(9,9,121,0) 100%);
+    background-size: 200%;
+}
+
+#noticia3{
+    background: rgb(179,117,23);
+background: linear-gradient(180deg, rgba(179,117,23,0) 0%, rgba(166,21,11,0.7877275910364145) 50%, rgba(9,9,121,0) 100%);
+background-size: 200%;
+}
+
+#noticia4{
+    background: rgb(179,117,23);
+background: linear-gradient(180deg, rgba(179,117,23,0) 0%, rgba(87,10,145,0.7877275910364145) 50%, rgba(9,9,121,0) 100%);
+background-size: 200%;
+}
+
+#noticia5{
+    background: rgb(179,117,23);
+background: linear-gradient(180deg, rgba(179,117,23,0) 0%, rgba(135,14,63,0.7877275910364145) 50%, rgba(9,9,121,0) 100%);
+background-size: 200%;
+}
