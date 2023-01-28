@@ -68,7 +68,9 @@ h2{
     width: 30vw;
     height: 23vh;
     letter-spacing: 0.3vw;
+    text-decoration: none;
 }
+
 
 @media screen and (min-width: 750px) {
     .deepcard{
@@ -189,4 +191,7 @@ ul li ul li a{
     
 }
 
+.fon{
+    text-decoration: none;
+}
 
